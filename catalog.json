@@ -1,1 +1,33 @@
-{"schemaVersion":1,"title":"方屿 · 我的作品","resources":[]}
+{
+  "schemaVersion": 1,
+  "title": "方屿 · 我的作品",
+  "resources": [
+    {
+      "id": "weave-net",
+      "title": "方屿 · 织网",
+      "category": "ADDON",
+      "summary": "把九根线织成蛛网，再把蛛网拆回线。",
+      "description": "一个轻量的生存合成配方包。\n\n工作台：九根线合成一个蛛网；一个蛛网可拆回九根线。\n\n使用基岩版配方格式制作，不依赖脚本或实验功能。安装后在世界的行为包中启用。\n\n当前已完成包结构和文件摘要检查，游戏内合成及旧版本兼容性尚未实测。",
+      "author": "BlockIsle",
+      "cover": "https://raw.githubusercontent.com/junnhwan/blockisle-content/main/resources/weave-net/cover.svg",
+      "page": "https://github.com/junnhwan/blockisle-content/releases/tag/weave-net-v1.0.0",
+      "requirements": "最低 1.20.0 为制作声明；游戏内运行待验证。",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "changelog": "首次发布织网与拆线配方。",
+          "artifacts": [
+            {
+              "name": "兼容构建 · 行为包",
+              "url": "https://github.com/junnhwan/blockisle-content/releases/download/weave-net-v1.0.0/blockisle-weave-net-1.0.0.mcpack",
+              "size": 961,
+              "sha256": "1f2abacf29a0ccdf7f1c4c293fecfc08ce4aa7c678a926948f27f8dcb69c06cb",
+              "minGameVersion": "1.20.0",
+              "testedGameVersions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
